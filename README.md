@@ -1,6 +1,4 @@
-# portfolio-2018
-
-> Mick Coelho portfolio 2018
+# nuxt-starter-kit
 
 ## Build Setup
 
