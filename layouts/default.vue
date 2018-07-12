@@ -4,7 +4,4 @@
 	</div>
 </template>
 
-<style>
-@import "./base/global";
-/* @import "base/_variables"; */
-</style>
+<style src="./base/global.css"></style>

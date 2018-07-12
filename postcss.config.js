@@ -16,18 +16,20 @@ module.exports = {
 				'UCAndroid >= 11',
 				'OperaMobile >= 12.1',
 				'BlackBerry >= 10',
-				'Samsung >= 4'
-			]
+				'Samsung >= 4',
+			],
 		}),
 		require('postcss-import')(),
 		require('cssnano')({
-			preset: 'default'
+			preset: 'default',
 		}),
 		require('autoprefixer')({
-			browsers: ['last 2 versions']
+			browsers: ['last 2 versions'],
 		}),
 		require('postcss-nested')(),
 		require('postcss-responsive-type')(),
 		require('postcss-hexrgba')(),
-	]
+		require('postcss-mixins')(),
+		require('postcss-simple-vars')(),
+	],
 }

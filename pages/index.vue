@@ -1,7 +1,6 @@
 <template>
 	<section class="container">
 		<div>
-			<app-logo/>
 			<h1 class="title">
 				test
 			</h1>
