@@ -1,0 +1,21 @@
+/* Color Palette  */
+$color-inherit: inherit;
+$color-grey-ish: #526488;
+$color-green: #3b8070;
+$color-white: #ffffff;
+
+/* Animations */
+
+/* Fonts  */
+$font-main: 'MaisonNeueBold', 'Helvetica', sans-serif;
+$font-fallback: Arial, sans-serif;
+$font-size-html: 10px;
+$font-size-title: 3rem;
+$font-size-subtitle: 2rem;
+
+$z-index-neg-1: -1;
+$z-index-1: 1;
+$z-index-2: 2;
+$z-index-3: 3;
+$z-index-10: 10;
+$z-index-11: 11;
